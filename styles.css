@@ -5,19 +5,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
+
 .calculator{
     background: #3a4452;
     padding: 20px;
     border-radius: 10px;
-    
 }
-.calculator form input{
+
+.calculator form .key {
+    display: inline-block;
+    
+
+}
+
+.calculator form .key span {
+    display: block;
     border: 0;
     outline: 0;
     width: 60px;
     height: 60px;
+    line-height: 60px;
+    text-align: center;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
@@ -25,23 +35,55 @@
     color: #fff;
     cursor: pointer;
     margin: 10px;
+    position: relative;
+    transition: 0.2s;
+    user-select: none;
+
+    
+
+
 }
 
-form .display{
+.calculator form .key span:hover{
+    box-shadow: inset 0px 0px 8px rgba(255, 255, 255, 0.281);
+
+}
+
+form .display {
+    min-height: 100px;
+    padding: 1.5rem;
+    background-color: #253b41;
     display: flex;
     justify-content: flex-end;
     margin: 20px 0px;
+    color: white;
+    text-align: right;
+    flex: 1 1 0%;
 
 }
-form .display input{
-    text-align: center;
+
+form .display .input {
+    
+    text-align: right;
     flex: 1;
-    font-size: 40px;
+    font-size: 30px;
     box-shadow: none;
+
 }
-form input.equal{
-   width: 145px; 
+form .display .output{
+    font-size: 20px;
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
 }
-form .opprator{
+
+.calculator form .key.operator span{
+    color: rgb(17, 167, 27);
+    font-weight: 700;
+    
+}
+
+.calculator form .key.action span{
     color: aqua;
+    font-weight: 700;
 }
