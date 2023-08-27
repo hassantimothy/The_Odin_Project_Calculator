@@ -50,11 +50,8 @@
 }
 
 form .display {
-<<<<<<< HEAD
     min-height: 100px;
-=======
     min-height: 200px;
->>>>>>> af6c0223eb008f273c8288ff98b343d18e4921ae
     padding: 1.5rem;
     background-color: #253b41;
     display: flex;
@@ -67,11 +64,7 @@ form .display {
 }
 
 form .display .input {
-<<<<<<< HEAD
-    
-=======
     background-color: red;
->>>>>>> af6c0223eb008f273c8288ff98b343d18e4921ae
     text-align: right;
     flex: 1;
     font-size: 30px;
@@ -79,13 +72,10 @@ form .display .input {
 
 }
 form .display .output{
-<<<<<<< HEAD
     font-size: 20px;
-=======
     background-color: blue;
     font-size: 3rem;
     font-weight: 700;
->>>>>>> af6c0223eb008f273c8288ff98b343d18e4921ae
     width: 100%;
     max-width: 100%;
     overflow: auto;
@@ -100,8 +90,3 @@ form .display .output{
 .calculator form .key.action span{
     color: aqua;
     font-weight: 700;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> af6c0223eb008f273c8288ff98b343d18e4921ae
