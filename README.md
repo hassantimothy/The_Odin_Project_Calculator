@@ -1,4 +1,3 @@
-# The_Odin_Project_Calculator
 # On-Screen Calculator Project
 
 Welcome to the On-Screen Calculator project! This project combines your knowledge of JavaScript, HTML, and CSS to create a functional calculator that performs basic mathematical operations.
